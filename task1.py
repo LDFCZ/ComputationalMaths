@@ -1,8 +1,5 @@
 
 # f(x) = x^3 + ax^2 + bx + c = ????????????
-from asyncio.windows_events import NULL
-
-
 def findFunctionValue(a, b, c, x):
     return x ** 3 + a * x ** 2 + b * x + c 
 
